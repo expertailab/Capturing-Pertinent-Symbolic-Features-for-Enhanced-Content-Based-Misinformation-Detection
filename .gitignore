@@ -182,4 +182,4 @@ notebooks/wandb/
 models/
 
 # data
-data/
+!data/README.rst
