@@ -1,13 +1,38 @@
-===============================
+=============================================================================================
 Capturing Pertinent Symbolic Features for Enhanced Content-Based Misinformation Detection
-===============================
+=============================================================================================
 
-|License| |PyPI pyversions| |Docker|
+|License| |PyPI pyversions|
 
-Capturing Pertinent Symbolic Features for Enhanced Content-Based Misinformation Detection, developed with 💛 at `Expert.ai Research Lab <https://github.com/expertailab>`__
+Developed with 💛 at `Expert.ai Research Lab <https://github.com/expertailab>`__
 
 -  License: ISC
 -  Paper (TBD)
+
+Research work
+---------------
+In this work, we propose harnessing symbolic linguistic 
+resources inspired by insights from social science 
+research to automate the detection of content-based 
+misinformation. Our experiments leverage a suite of 
+off-the-shelf freely available 
+`symbolic models <https://www.expert.ai/blog/symbolic-approach-nlp-models/>`__
+tailored to identify layered linguistic attributes:
+
+* `writeprint <https://docs.expert.ai/nlapi/latest/reference/output/detection/writeprint/>`__,
+* `sentiment analysis <https://docs.expert.ai/nlapi/latest/guide/sentiment-analysis/>`__,
+* `emotional traits <https://docs.expert.ai/nlapi/latest/guide/classification/emotional-traits/>`__,
+* `behavioral traits <https://docs.expert.ai/nlapi/latest/guide/classification/behavioral-traits/>`__,
+* `hate speech <https://docs.expert.ai/nlapi/latest/reference/output/detection/hate-speech/>`__,
+* `radicalization narratives <https://ceur-ws.org/Vol-2342/paper5.pdf>`__,
+
+This information is subsequently combined with 
+the capabilities of language models. 
+Our method is validated across a range of 
+`datasets <https://github.com/expertailab/Capturing-Pertinent-Symbolic-Features-for-Enhanced-Content-Based-Misinformation-Detection/tree/main/data>`__, 
+carefully selected and analyzed to represent the 
+heterogeneous misinformation phenomenon.
+
 
 .. Installation
 .. ------------
@@ -22,7 +47,9 @@ Capturing Pertinent Symbolic Features for Enhanced Content-Based Misinformation 
 Reproducibility
 ---------------
 
-Code temporarily shared within the **notebooks/** directory.
+**Code**: temporarily shared within the *notebooks/* directory.
+
+**Data**: *data/* directory contains instruction to download data.
 
 .. To reproduce the results from the original paper, do:
 
@@ -31,13 +58,13 @@ Code temporarily shared within the **notebooks/** directory.
 ..    make repro
 
 
-Contribution
-------------
+.. Contribution
+.. ------------
 
-Contributions are welcome, and they are greatly appreciated! Every
-little bit helps, and credit will always be given.
+.. Contributions are welcome, and they are greatly appreciated! Every
+.. little bit helps, and credit will always be given.
 
-To contribute, have a look at `Contributing <./CONTRIBUTING.rst>`__
+.. To contribute, have a look at `Contributing <./CONTRIBUTING.rst>`__
 
 How to cite
 -----------
