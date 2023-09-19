@@ -9,6 +9,14 @@ Developed with 💛 at `Expert.ai Research Lab <https://github.com/expertailab>`
 -  License: ISC
 -  Paper (TBD)
 
+Content
+---------------
+This repository contains **code** and instruction to download **data** for the research paper titled *Capturing Pertinent Symbolic Features for Enhanced Content-Based Misinformation Detection*. It is organized as follows:
+
+- **data/**: Contains instructions for obtaining the data necessary to run the experiments.
+- **notebooks/**: Contains Jupyter notebooks for conducting paper experiments, or rather *preprocessing*, *analyzing*, *annotating* and *modeling* misinformation data.
+
+
 Research work
 ---------------
 In this work, we propose harnessing symbolic linguistic 
@@ -19,12 +27,12 @@ off-the-shelf freely available
 `symbolic models <https://www.expert.ai/blog/symbolic-approach-nlp-models/>`__
 tailored to identify layered linguistic attributes:
 
-* `writeprint <https://docs.expert.ai/nlapi/latest/reference/output/detection/writeprint/>`__,
-* `sentiment analysis <https://docs.expert.ai/nlapi/latest/guide/sentiment-analysis/>`__,
-* `emotional traits <https://docs.expert.ai/nlapi/latest/guide/classification/emotional-traits/>`__,
-* `behavioral traits <https://docs.expert.ai/nlapi/latest/guide/classification/behavioral-traits/>`__,
-* `hate speech <https://docs.expert.ai/nlapi/latest/reference/output/detection/hate-speech/>`__,
-* `radicalization narratives <https://ceur-ws.org/Vol-2342/paper5.pdf>`__,
+- `writeprint <https://docs.expert.ai/nlapi/latest/reference/output/detection/writeprint/>`__,
+- `sentiment analysis <https://docs.expert.ai/nlapi/latest/guide/sentiment-analysis/>`__,
+- `emotional traits <https://docs.expert.ai/nlapi/latest/guide/classification/emotional-traits/>`__,
+- `behavioral traits <https://docs.expert.ai/nlapi/latest/guide/classification/behavioral-traits/>`__,
+- `hate speech <https://docs.expert.ai/nlapi/latest/reference/output/detection/hate-speech/>`__,
+- `radicalization narratives <https://ceur-ws.org/Vol-2342/paper5.pdf>`__,
 
 This information is subsequently combined with 
 the capabilities of language models. 
@@ -47,9 +55,9 @@ heterogeneous misinformation phenomenon.
 Reproducibility
 ---------------
 
-**Code**: temporarily shared within the *notebooks/* directory.
+**Data**: Follow the instructions in the README located within the *data/* directory to obtain both the raw and already preprocessed datasets required to conduct the experiments.
 
-**Data**: *data/* directory contains instruction to download data.
+**Code**: Code to *preprocess*, *analyse*, *annotate* and *model* data is temporarily shared within Jupyter notebooks in the *notebooks/* directory.
 
 .. To reproduce the results from the original paper, do:
 
