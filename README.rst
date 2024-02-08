@@ -77,7 +77,7 @@ Reproducibility
 How to cite
 -----------
 
-To cite this research please use the following:
+To cite this research please use the following::
 
     @inproceedings{merenda2023capturing,
       title={Capturing Pertinent Symbolic Features for Enhanced Content-Based Misinformation Detection},
