@@ -7,7 +7,7 @@ Capturing Pertinent Symbolic Features for Enhanced Content-Based Misinformation 
 Developed with 💛 at `Expert.ai Research Lab <https://github.com/expertailab>`__
 
 -  License: ISC
--  Paper (TBD)
+-  Paper: `arXiv <https://arxiv.org/abs/2401.16285>`__
 
 Content
 ---------------
@@ -77,8 +77,15 @@ Reproducibility
 How to cite
 -----------
 
-To cite this research please use the following: `TBD`
+To cite this research please use the following:
 
+    @inproceedings{merenda2023capturing,
+      title={Capturing Pertinent Symbolic Features for Enhanced Content-Based Misinformation Detection},
+      author={Merenda, Flavio and Gomez-Perez, Jose Manuel},
+      booktitle={Proceedings of the 12th Knowledge Capture Conference 2023},
+      pages={61--69},
+      year={2023}
+    }
 
 |Expert.ai favicon| Expert.ai
 -----------------------------
